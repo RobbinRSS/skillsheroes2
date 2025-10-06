@@ -12,23 +12,14 @@ import { Link } from "react-router-dom";
 // App.jsx gaat routing regelen
 
 function Home() {
-  const fetchApi = async () => {
-    const response = await axios.get("http://localhost:8080/api");
-    console.log(response.data.fruits);
-  };
-
-  useEffect(() => {
-    fetchApi();
-  }, []);
-
   return (
     <>
-      <h4>Welkom RE/MAX makelaar name</h4>
+      <h4>Welkom gebruiker naam</h4>
 
       <main id="content-blocks">
-        <Link to={"/databaseclients"} id="content-block">
+        <Link to={"/keuzedeel:id"} id="content-block">
           <FontAwesomeIcon icon={faDatabase}></FontAwesomeIcon>
-          <h2>Database interface</h2>
+          <h2>Keuzedeel naam</h2>
         </Link>
 
         <div id="content-block">

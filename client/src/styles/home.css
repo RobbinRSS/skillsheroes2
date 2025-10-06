@@ -1,0 +1,31 @@
+#content-blocks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* exact 2 kolommen */
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+#content-block {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: black;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: white;
+}
+
+#content-block svg {
+  background-color: #1a3668; /* blauw */
+  color: white;
+  border-radius: 50%;
+  padding: 0.6rem;
+  width: 1rem;
+  height: 1rem;
+  box-sizing: content-box;
+}
+
+#content-block:hover {
+  transform: translateY(-10px);
+}
