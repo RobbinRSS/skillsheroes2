@@ -1,6 +1,5 @@
 #content-blocks {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* exact 2 kolommen */
   gap: 1.5rem;
   padding: 1rem 0;
 }

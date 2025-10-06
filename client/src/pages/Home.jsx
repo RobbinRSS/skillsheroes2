@@ -18,23 +18,23 @@ function Home() {
 
       <main id="content-blocks">
         <Link to={"/keuzedeel:id"} id="content-block">
-          <FontAwesomeIcon icon={faDatabase}></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faQuestionCircle}></FontAwesomeIcon>
           <h2>Keuzedeel naam</h2>
         </Link>
 
         <div id="content-block">
           <FontAwesomeIcon icon={faQuestionCircle}></FontAwesomeIcon>
-          <h2>Unknown</h2>
+          <h2>Keuzedeel naam</h2>
         </div>
 
         <div id="content-block">
           <FontAwesomeIcon icon={faQuestionCircle}></FontAwesomeIcon>
-          <h2>Unknown</h2>
+          <h2>Keuzedeel naam</h2>
         </div>
 
         <div id="content-block">
           <FontAwesomeIcon icon={faQuestionCircle}></FontAwesomeIcon>
-          <h2>Unknown</h2>
+          <h2>Keuzedeel naam</h2>
         </div>
       </main>
     </>
