@@ -12,15 +12,7 @@ function PopupContent({ onClose }) {
       <div className="modal" onClick={(e) => e.stopPropagation()}>
         <h3>Log in</h3>
         <form>
-          <input type="text" placeholder="Username" required />
-          <br />
-          <input
-            type="password"
-            placeholder="Password"
-            minLength={6}
-            required
-          />
-          <br />
+          <input type="email" placeholder="email" required />
           <button type="submit">Inloggen</button>
         </form>
       </div>
